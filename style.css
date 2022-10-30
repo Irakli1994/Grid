@@ -1,0 +1,253 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+
+body {
+    background-color: #FAF8ED;
+    padding-left: 100px;
+}
+
+header {
+    width: 1440px;
+    height: 102px;
+    /* border: 1px solid red; */
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header nav {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+
+}
+
+
+header nav .first {
+    font-family: 'Sen', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 150px;
+    display: flex;
+    gap: 6px;
+}
+
+
+header nav .first img {
+    width: 42px;
+    height: 35px;
+}
+
+header nav .second {
+    display: flex;
+    gap: 36px;
+    padding-right: 400px;
+}
+
+
+header nav .second li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #2E476B;
+}
+
+header nav .third button {
+    width: 170px;
+    height: 54px;
+    border: 1.4px solid #F66F4D;
+    border-radius: 27px;
+    background-color: #FAF8ED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav .third button img {
+    padding-left: 3px;
+}
+
+header nav .third button p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #F66F4D;
+    width: 80px;
+}
+
+main .up-section {
+    width: 627px;
+    height: 160px;
+    margin: 191px 457px 51px 457px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+main .up-section .tittle h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    padding-bottom: 16px;
+}
+
+main .up-section .tittle p {
+    /* position: absolute; */
+    font-family: 'Inter Tight', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding-bottom: 28px;
+    color: #979896;
+}
+
+main .up-section button {
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    border-radius: 30px;
+    width: 92px;
+    height: 34px;
+}
+
+
+main .up-section button span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+main .up-section .first {
+    background-color: black;
+}
+
+main .up-section .first span {
+    color: white;
+}
+
+main .up-section .last {
+    width: 70px;
+    height: 34px;
+}
+
+main .gallery__grid_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "First Biggest Biggest Fourth "
+        "Second Biggest Biggest Last";
+    gap: 0px 30px;
+    width: 65%;
+    margin-left: 150px;
+}
+
+main .gallery__grid_cards .first_img {
+    grid-area: First;
+}
+
+main .gallery__grid_cards .second_img {
+    grid-area: Second;
+}
+
+main .gallery__grid_cards .biggest_img {
+    grid-area: Biggest;
+}
+
+main .gallery__grid_cards .fourth_img {
+    grid-area: Fourth;
+}
+
+/* main .gallery__grid_cards .fives_img {
+    grid-area: Fives;
+} */
+
+
+main .gallery__grid_cards .last_img {
+    grid-area: Last;
+}
+
+footer {
+    width: 75%;
+    height: 315px;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    padding-top: 87px;
+}
+
+footer .left {
+    padding-left: 150px;
+}
+
+
+footer .left .salty {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+footer .left .footer_first_p {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #2D3134;
+}
+
+footer .left .footer_second_p {
+    padding-top: 28px;
+    font-family: 'Inter Tight', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+footer .right {
+    display: flex;
+    width: 754px;
+    height: 176px;
+    gap: 113px;
+}
+
+footer .right .footer_info_list_one {
+    width: 92px;
+    height: 136px;
+}
+
+footer .right h4 {
+    font-family: 'Inter Tight', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #3A3E3F;
+    padding-bottom: 24px;
+}
+
+footer .right p {
+    font-family: 'Inter Tight', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    color: #676A6C;
+}
