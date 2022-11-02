@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     /* box-sizing: border-box; */
+
 }
 
 
@@ -147,11 +148,11 @@ main .up-section .last {
 
 main .gallery__grid_cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
-        "First Biggest Biggest Fourth "
-        "Second Biggest Biggest Last";
+        "First Biggest Biggest Fourth Fourth "
+        "Second Biggest Biggest Fives Last";
     gap: 0px 30px;
     width: 65%;
     margin-left: 150px;
@@ -173,9 +174,9 @@ main .gallery__grid_cards .fourth_img {
     grid-area: Fourth;
 }
 
-/* main .gallery__grid_cards .fives_img {
+main .gallery__grid_cards .fives_img {
     grid-area: Fives;
-} */
+}
 
 
 main .gallery__grid_cards .last_img {
